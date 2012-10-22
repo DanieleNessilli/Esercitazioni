@@ -1,0 +1,29 @@
+<resources>
+
+         
+    <string name="app_name" >L"'"ingiustizzie der monno</string>
+    <string name="hello_world">
+        
+Quanno che senti di"'" "cleptomania"  \n                                     
+è segno ch"'"è un signore ch"'"ha rubbato: \n
+er ladro ricco è sempre un ammalato \n
+e er furto che commette è una pazzia. \n
+ 
+Ma se domani è un povero affamato \n
+che rubba una pagnotta e scappa via  \n
+pe"'" lui nun c"'"è nessuna malatia \n
+che j"'"impedisca d"'"esse condannato! \n
+ 
+Così va er monno! L"'"antra settimana \n
+che Yeta se n"'"agnede cór sartore1 \n
+tutta la gente disse: - È una puttana. - \n
+ 
+Ma la duchessa, che scappò in America  \n
+cór cammeriere de l"'"ambasciatore,  \n
+- Povera donna! - dissero - È un"'"isterica!..  \n
+  
+  </string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+
+</resources>
