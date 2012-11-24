@@ -30,6 +30,8 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.support.v4.app.NavUtils;
+import android.text.Html;
+import android.text.Spanned;
 
 public class FeedReader extends Activity {
 
@@ -50,8 +52,8 @@ public class FeedReader extends Activity {
 			XMLReader reader=parser.getXMLReader();
 			reader.setContentHandler(handler);
 			reader.parse(new InputSource(in));
-				
-			titolo=handler.tit;                    
+			
+			titolo=handler.tit;  
 			ora=handler.date;
 			descrizione=handler.descr;
 
@@ -130,7 +132,7 @@ public class FeedReader extends Activity {
 	}
     
     public static class CustomItem {
-		public String titolo;
+		public Spanned titolo;
 		public String ora;
 	}
 
@@ -141,7 +143,7 @@ public class FeedReader extends Activity {
 		
 		for(int i=0;i<15;i++){
 		items[i] = new CustomItem();
-		items[i].titolo=titolo[i];
+		items[i].titolo=Html.fromHtml(titolo[i]);
 		items[i].ora=ora[i];
 		}
 		
